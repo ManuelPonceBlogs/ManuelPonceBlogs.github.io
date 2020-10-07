@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--ǝɔuod‾lǝnuɐɯ‾ɟo‾sʇɥƃnoɥʇ-->
+    <title>thoughts</title>  
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="stillnotmine.png">
+  </head>
+  <body>
+	<div class="text allText">
+		<h4 style="text-align: right">
+			<br><a href="https://twitter.com/Manuel_Ponce_" rel="noopener noreferrer" target="_blank>resume">@manuel_ponce_</a>
+		</h4>
+		<p class="writeIn"; style="color:transparent"; data-text="my thoughts i guess . . .">thoughts i guess . . .</p>
+
+		<button class="accordion allText">8/???/2020_</button>
+		<div class="panel allText">
+			this is where i write my thoughts and that is the thought i currently have. my mind is clear for the moment. 
+		</div>
+
+		<button class="accordion allText">4/04/2020_</button>
+		<div class="panel allText">
+			<a href="https://whatdoimiss.bitbucket.io/" rel="noopener noreferrer" target="_blank>resume">
+				covid-19: what do i miss _ 3:44:22am
+			</a>
+		</div>
+		
+		<button class="accordion allText">3/04/2020_</button>
+		<div class="panel allText">
+			yhlqmdlg _ 4:06:36pm
+		</div>
+
+		<button class="accordion allText">1/23/2020_</button>
+		<div class="panel allText">
+			i love music so so much _ 8:22:00am
+		</div>
+
+		<button class="accordion allText">10/05/2019_</button>
+		<div class="panel allText">
+			because of the internet _ 8:00:00pm
+			<p><img src="Objects/download.png" alt="Childish Gambino @ ACL" height="200" width="300"></p>
+		</div>
+		
+		<button class="accordion allText">10/04/2019_</button>
+		<div class="panel allText">
+			elephant _ 8:15:00pm
+			<video controls="controls" width="320" height="240" 
+				name="Tame Impala @ ACL" src="tame.mp4"></video>
+		</div>
+	</div>
+ </body>
+<!--  
+    *   '*
+           *
+                *
+                       *
+               *
+                     *
+
+         .                      .
+         .                      ;
+         :                  - --+- -
+         !           .          !
+         |        .             .
+         |_         +
+      ,  | `.
+--- --+-<#>-+- ---  --  -
+      `._|_,'
+         T
+         |
+         !
+         :         . : 
+         .       *
+  -->
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight){
+		  panel.style.maxHeight = null;
+		} else {
+		  panel.style.maxHeight = panel.scrollHeight + "px";
+		} 
+	  });
+	} 
+</script>
+</html>
