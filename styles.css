@@ -1,6 +1,6 @@
 .allText{
 	font-family: 'Orbitron', sans-serif;
-	color: #808080;
+	color: #30475e;
 }
 
 .text {
@@ -22,7 +22,7 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	color: #105289;
+	color: #e7dec8;
 	transition: color 350ms ease-in-out;
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
@@ -30,7 +30,7 @@ a:hover{
 }
 
 body {
-	background-color: #000000;
+	background-color: #cbaf87;
 	align-self: center;
 }
 
@@ -40,8 +40,10 @@ body {
     overflow: hidden;
     max-width: 14em;
     white-space: nowrap;
-    color: 	#808080;
-    animation: loading 1.5s linear;
+    color: 	#e7dec8;
+    animation: loading 10s linear;
+	font-size: 25px;
+	max-width: 100%;
 }
 @keyframes loading {
     0% {
@@ -50,8 +52,8 @@ body {
 }
 
 .accordion {
-	background-color: #000;
-	color: #808080;
+	background-color: #7e8a97;
+	color: #30475e;
 	cursor: pointer;
 	padding: 0px;
 	padding-left: 3px;
@@ -64,10 +66,10 @@ body {
 	max-width: 100%;
 	margin-top: .5vh;
 	word-wrap: break-word;
-	font-size: 15px;
+	font-size: 25px;
 }
 .active, .accordion:hover {
-	background-color: #105289; 
+	background-color: #e7dec8; 
 	width: 560px;	
 	max-width: 100%;
 	transition: color 350ms ease-in-out;
