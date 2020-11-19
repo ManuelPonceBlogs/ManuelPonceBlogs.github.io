@@ -1,6 +1,6 @@
 .allText{
 	font-family: 'Orbitron', sans-serif;
-	color: #30475e;
+	color: #b9c3cd;
 }
 
 .text {
@@ -30,7 +30,7 @@ a:hover{
 }
 
 body {
-	background-color: #cbaf87;
+	background-color: #262424;
 	align-self: center;
 }
 
@@ -40,7 +40,7 @@ body {
     overflow: hidden;
     max-width: 14em;
     white-space: nowrap;
-    color: 	#e7dec8;
+    color: #b9c3cd#b9c3cd;
     animation: loading 10s linear;
 	font-size: 25px;
 	max-width: 100%;
