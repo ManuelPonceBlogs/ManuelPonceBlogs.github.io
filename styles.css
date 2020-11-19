@@ -40,7 +40,7 @@ body {
     overflow: hidden;
     max-width: 14em;
     white-space: nowrap;
-    color: #b9c3cd#b9c3cd;
+    color: #b9c3cd;
     animation: loading 10s linear;
 	font-size: 25px;
 	max-width: 100%;
